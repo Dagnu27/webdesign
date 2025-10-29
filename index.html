@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      border: solid;
+    }
+
+  
+    .stage01 {
+      display: flex;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: antiquewhite;
+      border-bottom: 2px solid black;
+    }
+
+    .image-style {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 30px;
+    }
+
+    .para h1 {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    .para p {
+      font-size: 20px;
+    }
+
+    
+    section {
+      display: flex;
+      border-top: 1px solid black;
+      min-height: 500px;
+    }
+
+ 
+    .stage02 {
+      width: 250px;
+      border-right: 2px solid black;
+      background-color: #fdfdfd;
+      padding: 10px;
+    }
+
+    .stage02 h2 {
+      text-align: center;
+      border-bottom: 2px solid black;
+      margin-bottom: 15px;
+      padding-bottom: 5px;
+    }
+
+    .pages {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      text-align: center;
+    }
+
+    .pages li {
+      border: 2px solid #000;
+      padding: 8px;
+      border-radius: 6px;
+      transition:  0.3s;
+    }
+
+    .pages li:hover {
+      background-color: #ffe4b5;
+    }
+
+    .pages a {
+      text-decoration: none;
+      color: purple;
+      font-weight: bold;
+    }
+
+   
+    .stage03 {
+      flex: 1;
+      padding: 20px;
+      border-left: 1px solid #000;
+    }
+
+    .stage03 p {
+      font-size: 18px;
+      line-height: 1.6;
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+  <div class="stage01">
+    <img class="image-style" src="hacked.jpg" alt="Profile">
+    <div class="para">
+      <h1>Dagnachew Eshetu</h1>
+      <p>NSR/0221/16</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="stage02">
+      <h2>My Projects</h2>
+      <ul class="pages">
+        <li><a href="assignment01.html">Project One</a></li>
+        <li><a href="assignment02.html">Project Two</a></li>
+        <li><a href="assignment03.html">Project Three</a></li>
+        <li><a href="assignment05.html">Project Four</a></li>
+      </ul>
+    </div>
+
+    <div class="stage03">
+      <h2>About My Work</h2>
+      <p style="size: 30px; background-color: rgb(195, 206, 206);">
+      <b>This portfolio shows some of the projects I have done as a student. Each project helped me learn more about programming and how to solve problems. I enjoy creating simple and useful applications that people can use easily.
+        I am still learning and improving my skills to make better projects in the future.</b> 
+      </p>
+    </div>
+  </section>
+</body>
+</html>
