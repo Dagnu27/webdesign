@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>More Form Element</title>
+   
+</head>
+<body>
+    <h1 style="border-style: groove; border-width: 1em; border-color: aquamarine; text-align: center;">Feedback Form</h1>
+    <p style="text-align: center;  color: rgb(200, 7, 218) "><strong>  Fill out this form to help us improve our channel. </strong></p>
+    <form method="post" action="https://www.youtube.com">
+        <input type="hidden" name="recipient" value="ethioprogramming">
+                <input type="hidden" name="subject" value="Feedback Form">
+                        <input type="hidden" name="redirect" value="links.html">
+<p style="color: red;"><label >Name:
+    <input name="name" type="text" size="25">
+</label> </p>
+   <p><label>commentes:<br>
+    <textarea name="comments" cols="36" rows="5"> Enter commentes here</textarea>
+</label> </p>
+
+
+<p><label>Email Address:
+    <input name="email" type="email" size="25">
+</label> </p>
+
+<p><strong>Things you liked:</strong><br> <br>
+    <label>The presenter 
+    <input name="thingsliked" type="checkbox" value="presentation" >
+    </label>
+   
+    <label>The content of tutorial 
+    <input name="thingsliked" type="checkbox" value="content" >
+    </label>
+
+    <label>The coverage of topic 
+    <input name="thingsliked" type="checkbox" value="coverage" >
+    </label>
+    <label>Field of Area
+    <input name="thingsliked" type="checkbox" value="Field" >
+    </label>
+
+    <label>source code 
+    <input name="thingsliked" type="checkbox" value="code" >
+    </label>
+    <p><strong>How did you get to our channel?:</strong><br> <br>
+    <label>search engine
+        <input name="howtosite" type="radio" value="search engine "checked>
+    </label>
+
+    <label>links from another site
+        <input name="howtosite" type="radio" value="link ">
+    </label>
+
+    
+    <label>Fecebook web site 
+        <input name="howtosite" type="radio" value="Facebook ">
+    </label>
+
+    
+    <label>from your friends
+        <input name="howtosite" type="radio" value="friends ">
+    </label>
+    <label>other
+        <input name="howtosite" type="radio" value="other ">
+    </label> </p>
+   
+    <p>
+<label>Rate our channel:<br>
+    <select name="rating">
+        <option selected>Amazing</option>
+        <option>10</option>
+         <option>9</option>
+          <option>8</option>
+           <option>7</option>
+            <option>6</option>
+              <option>5</option>
+                 <option>4</option>
+                  <option>3</option>
+                    <option>2</option>
+                      <option>1</option>
+                         <option>Awfull</option>
+                          </select>
+</label>
+    </p>
+    <p>
+        <input type="submit" value="submit">
+        <input type="reset" value="clear">
+    </p>
+    </form>
+</body>
+</html>

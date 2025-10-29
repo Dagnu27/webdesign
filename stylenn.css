@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(PP.jpg);
+    background-size: cover; 
+    height: 100vh;
+    font-family: sans-serif;
+}
+.box{
+
+
+    height: 200px ;
+    width: 150px;
+    background-color:#000 ;
+    position: absolute;
+    color:#fff;
+    transform: translate(-50%,-50%);
+    left: 50%   ;
+    top:250px;
+    padding: 70px  30px;
+    border-radius: 18px; 
+}
+.image{
+   width: 100px  ;
+   height: 100px;
+   border-radius: 50px;
+   position: absolute;
+   top: -50px;
+   left: calc(50%-50px);
+       
+}
+h1{
+    margin: 0px;
+    padding: 0 0 20px;
+    text-emphasis: center;
+    font-size: 25px;
+}
+.box input{
+    width: 100%;
+    margin-bottom: 25px;
+
+
+}
+.box input[type="text"],input[type="password"]{
+
+ border: none;
+ border-bottom: 1px solid #fff;
+ background-color: transparent;
+ outline: none;
+ height: 40px;
+ color: #fff;
+ font-size: 15px;
+
+}
+
+.box input[type="submit"]{
+ border: none;
+ outline: none;
+ height: 40px;
+ background-color: tomato;
+ color: #fff;
+ font-size: 18px;
+ border-radius: 20px;
+
+
+}
+.box input[type="submit"] :hover{
+   cursor: pointer;
+   background-color: rgb(30, 21, 109);
+   
+}  
+.box :a{
+   
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkkhaki;
+}
+.box a :hover{
+    color: #fff;
+
+}
